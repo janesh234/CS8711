@@ -18,7 +18,7 @@ def weather():
 		city = 'mathura'
 
 	# your API key will come here
-	api = api_key_here
+	api = e7f83ce406f3a3e88b78e91196d4d86a
 
 	# source contain json data from api
 	source = urllib.request.urlopen('http://api.openweathermap.org/data/2.5/weather?q =' + city + '&appid =' + api).read()
